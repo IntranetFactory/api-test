@@ -1,0 +1,8 @@
+{
+  "name": "api-test",
+  "version": "0.0.1.8",
+  "private": true,
+  "dependencies": {
+    "polymer": "Polymer/polymer#master"
+  }
+}

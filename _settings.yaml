@@ -1,0 +1,72 @@
+id: !!int 215
+contentType: Card
+UserActions:
+  cardId: !!int 215
+  hasNotifications: !!bool false
+  isIsoloated: !!bool false
+  maxItems: !!int 3
+  pinnable: !!bool true
+title: Basic Card (with API proxy)
+name: api-test
+CollectionModeField:
+  CollectionMode: 0
+MaxItemsField:
+  MaxItems: 3
+PriorityField:
+  Priority: 5
+StreamSource: null
+CardComponent: api-test/api-test-card
+StoreMetadataField: null
+CommonPart:
+  Owner: !!int 2
+  Container: null
+  CreatedUtc: 2017-07-19T14:11:18.2208865Z
+  PublishedUtc: 2017-07-19T14:11:18.2521625Z
+  ModifiedUtc: 2017-07-19T14:11:18.2208865Z
+  VersionCreatedUtc: 2017-07-19T14:11:18.0000000
+  VersionPublishedUtc: 2017-07-19T14:11:18.0000000
+  VersionModifiedUtc: 2017-07-19T14:11:18.0000000
+ServicePart:
+  ConnectorTypeId: !!int 0
+  ConnectorName: Script
+  ServiceName: Script
+  Url: ~/api/adenin.GateKeeper.Script
+SearchContextPart:
+  Query: null
+  Interface: null
+CommandPart:
+  CommandType: None
+  Command: 
+  DefaultDate: null
+  Intent: null
+AppPart:
+  App: null
+  Url: 
+  ExtUrl: 
+  Priority: !!int 0
+  AppFaceId: !!int 0
+  Category: orange
+  Icon: now:search
+  CSSClasses: null
+  Enabled: !!bool false
+  NewWindow: !!bool false
+  UrlWithId: !!bool true
+  AvailableAppFaceRecords: null
+  HasPattern: !!bool false
+RoleViewPermissionsPart:
+  AllowedRoles:
+    - Authenticated
+  Audiences: []
+  Mandatory: False
+RecurringTaskPart:
+  Schedule: '- - - - -'
+  ActivityType: adenin.Now.Activities.CardTask.UpdateCard
+  StartDateUtc: null
+  EndDateUtc: null
+  NextOccurrenceUtc: null
+  Priority: !!int 5
+  Status: Enabled
+  NowFlag: 0
+  LastExecutionUTC: null
+  EnableWebHook: !!bool false
+  WebHookToken: null
